@@ -7,7 +7,7 @@ public class Constants {
 	public static void main(String[] args) {
 		// Constants
 		
-		
+		System.out.println(dob);
 		
 		// dob = "01/01/1901";
 

@@ -3,6 +3,7 @@ package introtocs.inheritanceandpoly;
 public class DebitCard extends MoneyCard {
 
 	public DebitCard(int amount) {
+		this.acceptability = new AcceptedEverywhere();
 		this.balance = amount;
 	}
 	

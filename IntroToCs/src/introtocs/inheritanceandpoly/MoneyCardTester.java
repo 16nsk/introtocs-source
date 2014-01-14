@@ -12,6 +12,7 @@ public class MoneyCardTester {
 		
 		gc.makePurchase(50);
 		System.out.println("Balance: " + gc.getBalance());
+		System.out.println(gc.getAcceptability());
 		
 		System.out.println();
 		System.out.println("The DebitCard Class:");
@@ -21,6 +22,7 @@ public class MoneyCardTester {
 		dc.makePurchase(100);
 		dc.deposit(25);
 		System.out.println("Balance: " + dc.getBalance());
+		System.out.println(dc.getAcceptability());
 		
 		System.out.println();
 		System.out.println("The CreditCard Class:");
@@ -31,6 +33,7 @@ public class MoneyCardTester {
 		cc.makePayment(75);
 		
 		System.out.println("Available Credit: " + cc.getAvailableCredit());
+		System.out.println(cc.getAcceptability());
 
 	}
 

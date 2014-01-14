@@ -5,6 +5,7 @@ public class CreditCard extends MoneyCard {
 	private int creditLimit;
 	
 	public CreditCard(int amount) {
+		this.acceptability = new AcceptedEverywhere();
 		this.balance = 0;
 		this.creditLimit = amount;
 	}

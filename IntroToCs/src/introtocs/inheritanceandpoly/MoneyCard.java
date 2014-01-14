@@ -3,6 +3,7 @@ package introtocs.inheritanceandpoly;
 public class MoneyCard {
 
 	protected int balance;
+	protected Acceptability acceptability;
 	
 	public int getBalance() {
 		
@@ -16,5 +17,9 @@ public class MoneyCard {
 		}
 		
 		this.balance = this.balance - amount;
+	}
+	
+	public String getAcceptability() {
+		return this.acceptability.location();
 	}
 }
